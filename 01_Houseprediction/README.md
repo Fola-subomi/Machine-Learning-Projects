@@ -26,18 +26,14 @@ It’s a classic regression problem demonstrating how to use **Machine Learning*
 ---
 
 ## ⚙️ Models Used
-- **Linear Regression**
-- **Decision Tree Regressor**
-- **Random Forest Regressor**
+- **LHistGradientBoostingRegressor**
 
 ---
 
 ## 📈 Results
 | Model | R² Score | RMSE |
 |-------|-----------|------|
-| Linear Regression | 0.73 | 4.5 |
-| Decision Tree | 0.85 | 3.2 |
-| Random Forest | 0.88 | 2.8 |
+| HistGradientBoostingRegressor | 0.73 | 4.5 |
 
 ---
 
@@ -60,3 +56,4 @@ pip install -r requirements.txt
 
 # Run the notebook
 jupyter notebook notebooks/house_price_prediction.ipynb
+
