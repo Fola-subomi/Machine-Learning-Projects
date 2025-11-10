@@ -33,7 +33,7 @@ It’s a classic regression problem demonstrating how to use **Machine Learning*
 ## 📈 Results
 | Model | R² Score | RMSE |
 |-------|-----------|------|
-| HistGradientBoostingRegressor | 0.73 | 4.5 |
+| HistGradientBoostingRegressor | 0.89|
 
 ---
 
@@ -56,4 +56,5 @@ pip install -r requirements.txt
 
 # Run the notebook
 jupyter notebook notebooks/house_price_prediction.ipynb
+
 
